@@ -4,8 +4,8 @@ import numpy as np
 from PIL import Image
 
 ## logo
-logo = Image.open("logo1.jpg")
-st.image(logo)
+#logo = Image.open("logo1.jpg")
+#st.image(logo)
 
 ##sidebar
 sidebar = st.sidebar.radio("guide", ("Home", "Image", "Time series"))
